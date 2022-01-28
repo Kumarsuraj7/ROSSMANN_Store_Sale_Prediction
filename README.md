@@ -1,4 +1,4 @@
-# ROSSMANN_Store_Sale_Prediction
+# ROSSMANN Store Sale Prediction
 Future forecasting using ARIMA models for ROSSMANN dataset
 Files
 train.csv - historical data including Sales
