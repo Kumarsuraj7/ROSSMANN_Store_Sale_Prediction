@@ -1,6 +1,7 @@
 # ROSSMANN Store Sale Prediction
 Future forecasting using ARIMA models for ROSSMANN dataset
-Files
+
+__Files__
 train.csv - historical data including Sales
 store.csv - supplemental information about the stores
 
@@ -22,3 +23,19 @@ Most of the fields are self-explanatory. The following are descriptions for thos
 - Promo2 - Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating
 - Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2
 - PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+
+__SARIIMAX Model__
+
+Accuracy: 
+- Roost Mean Squared Error - 414.04
+
+![image](https://user-images.githubusercontent.com/23438020/151603528-40495e16-2a9c-4d6f-a102-9bd7fd647b71.png)
+
+__XGBOOST__
+
+Accuracy:
+- Roost Mean Squared Error - 2533.31
+
+![image](https://user-images.githubusercontent.com/23438020/151603809-18666bf6-eee5-41e2-b43c-a1ed41a7610a.png)
+
+
